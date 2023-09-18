@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="UTF-8">
+	<meta name="ENCOUNTER" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Araba Ocran">
+	<link rel="stylesheet" href="style.css">
+	<link rel="javaScript" href="Encounter.js">
+	<title> Encounter.com</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+	<style>
+		my Select{padding: 25%}
+		option{text-align: center}
+		<style> /* PHOTO GRID LINK STYLE*/
+		* {
+		box-sizing: border-box;
+		}
+
+		body {
+		margin: 0;
+		font-family: Arial;
+		}
+
+		.header {
+		text-align: center;
+		padding: 32px;
+		}
+
+		.row {
+		display: flex;
+		flex-wrap: wrap;
+		padding: 0 4px;
+		}
+
+		/* Create four equal columns that sits next to each other */
+		.column {
+		flex: 25%;
+		max-width: 25%;
+		padding: 0 4px;
+		}
+
+		.column img {
+		margin-top: 8px;
+		vertical-align: middle;
+		}
+
+		/* Responsive layout - makes a two column-layout instead of four columns */
+		@media (max-width: 800px) {
+		.column {
+		flex: 50%;
+		max-width: 50%;
+		}
+		}
+
+		/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+		@media (max-width: 600px) {
+		.column {
+		flex: 100%;
+		max-width: 100%;
+		}
+		}
+		.w3-row a{text-decoration: none;}
+	
+.ic4{
+	padding: 25px;
+	margin-top 220px;
+	width: 100%;
+}
+
+.ic4 a{
+	padding: 10;
+	text-decoration: none;
+	color: black;
+	background-color: #F77F00;
+	border-radius: 50%;
+	font-size: 25px;
+}
+
+
+		
+		
+		
+		</style>
+	</head>
+		
+		
+		
+		
+	<body>
+		
+		<div class="w3-row" style="text-align: center; background-color: #000;color: #fff;">
+			<div class="w3-col w3-container" style="width:25%"><a href="index.html"><p>home</p></a></div>
+			<div class="w3-col w3-container w3-orange" style="width:25%"><a href="getfood.html"><p>getfood</p></a></div>
+		<div class="w3-col w3-container" style="width:25%"><a href="feedback.html"><p>feedback</p></a></div>
+	<div class="w3-col w3-container" style="width:25%"><a href="contact.html"><p>contact</p></a></div>
+
+		</div>
+<!--
+		<h3> Are you a memeber of UAlbany Student/Faculty/Staff?</h3>
+		- JAVASCRIPT PROMPT 
+
+		<select id="mySelect">
+			<option>no</option>
+			<option>student</option>
+			<option>facultiy</option>
+			<option>visitor</option>
+		</select>
+		<button onclick="selectR()">Load!</button>
+		<p id="demo"></p>
+		
+		
+-->
+
+	<!--- MAIN HEADER -->
+		
+		<div id="header"><h2> click images to begin order </h2></div>
+		
+<!--- ARTICLE GRID -->
+		<div id="article">
+		<div class="row"> 
+		  <div class="column">
+			  <a href="https://www.ualbanydining.com/dining-near-me/jamals-chicken"><img src="jamalsIMG_8677.jpg" style="width:100%"></a>
+			  <a href="https://www.ualbanydining.com/dining-near-me/fountain-grill-breakfast"><img src="fountainIMG_8667.jpg" style="width:100%"></a>
+			  <a href="https://www.ualbanydining.com/dining-near-me/starbucks"><img src="starbucksIMG_8670.jpg" style="width:100%"></a>
+			  
+		  </div>
+
+		  <div class="column">
+			  <a href="https://www.ualbanydining.com/dining-near-me/babas"><img src="https://get.cbord.com/albany/full/merchant_photo.php?merchantid=82bc7ce9-79b9-462a-922a-17e3c78f863b" style="width:100%"></a>
+			  <a href="https://www.ualbanydining.com/dining-near-me/tres-habaneros"><img src="treshabIMG_8682.jpg" style="width:100%"></a>
+		  </div> 
+			
+		  <div class="column">
+				<a href="https://www.ualbanydining.com/dining-near-me/calypso"><img src="calypsoIMG.jpg" style="width:100%"></a>
+				<img src="stargingerIMG_8676.jpg" style="width:100%">
+				<a href="https://www.ualbanydining.com/dining-near-me/the-halal-shack"><img src="halalIMG_8673.jpg" style="width:100%"></a>
+			</div>
+			
+			<div class="column">
+				<a href="https://www.ualbanydining.com/dining-near-me/corner-deli"><img src="cornerdeliIMG.jpg" style="width:100%"></a>
+				<a href="https://www.ualbanydining.com/dining-near-me/subconnection"><img src="subconn2IMG_8672.jpg" style="width:100%"></a>
+				<a href="https://www.ualbanydining.com/dining-near-me/nikos-cafe"><img src="nikosIMG_8669.jpg" style="width:100%"></a>
+			</div>
+
+		</div>
+		</div>  
+
+	
+	<footer> 
+		<h3> connect with us</h3>
+		<div class="ic4">
+				<a href="https://www.facebook.com/uasalbany" class="fa fa-facebook"></a>
+				<a href="https://twitter.com/uasalbany" class="fa fa-twitter"></a>
+				<a href="https://www.google.com/maps/search/ualbany+dining/@42.6757232,-73.8539009,13z/data=!3m1!4b1" class="fa fa-google"></a>
+			<a href="https://www.instagram.com/uasalbany/" class="fa fa-instagram"></a>
+		</div>
+            <h5> ENCOUNTER &copy;2022</h5>
+		
+		
+		</footer>
+	
+	
+	
+	
+	
+	</body>
+</html>

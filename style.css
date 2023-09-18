@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap'); /** MEGRIM*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
+
+
+
+body{
+	font-family: 'Josefin Sans', sans-serif;
+	background-color: white;
+	height: auto;
+	overflow-x: hidden;
+	
+}
+h1, h2, h5{
+	font-family: 'Megrim', cursive;
+	text-align: center;
+	width: 100%;
+}
+h3{
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+/*p1*/
+.top{
+	width: 100%;
+}
+.topcontent{
+}
+
+.logoIMG{
+	width: 70%;
+}
+.logoIMG img{
+	float: left;
+	width: 100%;
+}
+.topcontent{
+	float: right;
+	width: 29%;
+}
+.topcontent p{
+	text-align: center;
+	font-size: 30px;
+	padding: 20px;
+	color: #000;
+	font-weight: bold;
+	text-decoration: none;
+}
+.definition{
+	width: 100%;
+	float: left;
+	padding-right: 180px;
+	text-align: center;
+}
+.container{
+	width: 100%;
+	float: left;
+}
+.Tcontainer1{
+	background-color: #1F2B21;
+	color: #FFBBDC;
+	width: 100%;
+	height: 530px
+}
+.Tcontainer1 h1{
+	text-align: left;
+}
+.xlarge-font{
+	width: 100%;
+	float: left;
+}
+#C-66row1, #C-66row3 {
+	float: right;
+	width: 50%;
+	padding: 20px;
+}
+#C-33row1, #C-33row3{
+	width: 38%;
+	float: left;
+	padding: 20px;
+}
+#C-33row1 img{
+	top: 140;
+}
+#Ecbttn{
+	margin-top: 30px;
+	text-align: center;
+}
+#Ecbttn a{
+	padding: 15px;
+	text-decoration: none;
+	background-color: #FFBBDC;
+	color: #000;
+	border-radius: 12px;
+}
+
+/*row2*/
+.Tcontainer2{
+	width: 97%;
+	float: left;
+	padding: 20px;
+	background-color: #fff;
+	color: #000;
+}
+
+#C-66row2{
+	float: left;
+	width: 60%;
+}
+
+#C-33row2{
+	float: right;
+	width: 35%;
+}
+#C-33row2 img{
+	padding-right: 225px;
+	padding: 20px;
+}
+
+#C-66row2 a{
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+	background-color: #F77F00;
+	color: #fff;
+	border-radius: 12px;
+	font-size: 20px;
+}
+#C-66row2 ul, #C-66row3 ol{
+	font-size: 20px;
+}
+/*row3*/
+.Tcontainer3{
+	width: 100%;
+	float: right;
+	background-color: #223D3C;
+	color: #fff;
+	text-align: center;
+}
+
+#C-66row3{
+	float: right;
+	width: 58%; 
+}
+#C-33row3 {
+	float: left;
+	width: 30%;
+}
+
+#C-33row3 img{
+	width: 100%;
+	
+}
+#C-66row3 a{
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+	background-color:forestgreen;
+	color: #fff;
+	border-radius: 12px;
+	font-size: 20px;
+}
+
+#C-66row3 ol{
+	text-align: left;
+}
+footer{
+	float: left;
+	width: 100%;
+	text-align: center;
+	height: 250px;
+	background-color: #F77F00;
+	color: #fff;
+	
+}
+.pagination{
+	padding: 25px;
+	margin-top 220px;
+	width: 100%;	
+
+}
+.pagination a{
+	padding: 15px;
+	text-decoration: none;
+	background-color: #fff;
+	color: black;
+	border-radius: 50%;
+	font-size: 18px;
+}
+#footer h3{
+	width: 100%;	
+}
+.ic4{
+	padding: 25px;
+	margin-top 220px;
+	width: 100%;
+}
+
+.ic4 a{
+	padding: 15px;
+	text-decoration: none;
+	background-color: #fff;
+	color: black;
+	border-radius: 50%;
+	font-size: 18p x;
+}
+
+.orpolicy{
+	height: 100%;
+	width: 100%;
+	background-color: #1F2B21;
+	color: #fff;
+}
+.orpolicy h3{
+	float: left;
+	width: 50%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.orpolicy img{
+	width: 25%;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.lnote a{
+	font-family: 'Fira Code', monospace;
+	text-decoration: none;
+	padding: 5px 10px;
+	background-color: #FFBBDC;
+	color: #000;
+	font-size: 20px;
+	width: 50%;
+	margin-left: 5%;
+	position: relative;
+	top: 5%;
+	
+	
+}
+
+

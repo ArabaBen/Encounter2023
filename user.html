@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="ENCOUNTER" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Araba Ocran">
+	<link rel="stylesheet" href="style.css">
+	
+
+	<link rel="javaScript" href="Encounter.js">
+	<title> Encounter.com</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Megrim&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+	
+<!--	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+	</head>
+	<style>
+		button{
+			padding: 12px 18px;
+			font-size: 16px;
+			background: purple;
+			color: #fff;
+		}
+		input{
+			color: purple;
+		}
+		body{
+			align-content: center;
+			text-align: center;
+			overflow-x: hidden;
+			
+
+		}
+		.endingIMG{
+			width: 100%;
+			
+		}
+		form{
+			margin-left: 50px;
+			margin-right: 50px;
+
+		}
+	</style>
+	
+	<body>
+<!--- USER PROMPT -->
+		<h1>ENCOUNTER</h1>
+		<h3>Welcome to Encounter! Please verify if you are a UALBANY student/staff/faculty to proceed: </h3>
+		<form id="accessForm">
+			<p>Are you a student at UALBANY?</p>
+			<label>
+				<input type="radio" name="student" value="true"> Yes
+			</label>
+			<label>
+				<input type="radio" name="student" value="false"> No
+			</label>
+
+			<p>Are you a staff member at UALBANY?</p>
+			<label>
+				<input type="radio" name="staff" value="true"> Yes
+			</label>
+			<label>
+				<input type="radio" name="staff" value="false"> No
+			</label>
+
+			<p>Are you faculty at UALBANY?</p>
+			<label>
+				<input type="radio" name="faculty" value="true"> Yes
+			</label>
+			<label>
+				<input type="radio" name="faculty" value="false"> No
+			</label>
+
+		<br><br>
+			
+			<button type="button" onclick="checkAccess()">Check Access</button>
+			
+		</form>
+		
+		<div class="endingIMG">
+			<img src="foodHandoff.png">
+		
+		</div>
+<!-- END USER PROMPT-->
+		
+    <script>
+        function checkAccess() {
+            const student = document.querySelector('input[name="student"]:checked');
+            const staff = document.querySelector('input[name="staff"]:checked');
+            const faculty = document.querySelector('input[name="faculty"]:checked');
+
+            if ((student && student.value === "true") || (staff && staff.value === "true") || (faculty && faculty.value === "true")) {
+                alert('Access granted! You may proceed to the next page.');
+                // Redirect the user to the next page.
+                window.location.href = "index.html";
+            } else {
+                alert('Access denied! You are not authorized to proceed to the next page.');
+            }
+        }
+		</script>
+	</body>
+</html>
